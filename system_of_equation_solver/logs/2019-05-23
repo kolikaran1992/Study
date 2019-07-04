@@ -1,0 +1,10 @@
+2019-05-23 22:44:17,638 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-23 22:44:17,711 :: INFO :: system_of_equation_solver :: The current mode is Modifoed Newton Kantorovich
+2019-05-23 22:46:19,643 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-23 22:46:19,653 :: INFO :: system_of_equation_solver :: The current mode is Modifoed Newton Kantorovich
+2019-05-23 23:18:17,285 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 7.92
+2019-05-23 23:18:34,416 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-23 23:18:34,421 :: INFO :: system_of_equation_solver :: The current mode is Modifoed Newton Kantorovich
+2019-05-23 23:18:39,406 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 6.0
+2019-05-23 23:18:47,158 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 7.0
+2019-05-23 23:18:52,487 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 6.0

@@ -1,0 +1,620 @@
+2019-05-18 20:43:21,602 :: ERROR :: system_of_equation_solver :: F = Matrix([[x**2 - 1], [y**2 - 4]]), could not be calculated at (1, 2)
+Traceback (most recent call last):
+  File "/home/aptara/STUDY/NKM/packages/system_of_equation_solver/solver_class.py", line 88, in calc_numeric_F
+    f = lambdify(self._syms, self._F, 'numpy')(vec).reshape(len(self._syms), 1)
+TypeError: _lambdifygenerated() missing 1 required positional argument: 'y'
+2019-05-18 20:43:32,205 :: ERROR :: system_of_equation_solver :: F = Matrix([[x**2 - 1], [y**2 - 4]]), could not be calculated at (1, 2)
+Traceback (most recent call last):
+  File "/home/aptara/STUDY/NKM/packages/system_of_equation_solver/solver_class.py", line 88, in calc_numeric_F
+    f = lambdify(self._syms, self._F, 'numpy')(vec).reshape(len(self._syms), 1)
+TypeError: _lambdifygenerated() missing 1 required positional argument: 'y'
+2019-05-18 20:54:05,390 :: DEBUG :: system_of_equation_solver :: F((x, y)) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-18 20:54:05,390 :: DEBUG :: system_of_equation_solver :: F((x, y)) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-18 20:54:05,393 :: DEBUG :: system_of_equation_solver :: DF((x, y)) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-18 20:54:05,393 :: DEBUG :: system_of_equation_solver :: DF((x, y)) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-18 20:54:37,241 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-18 20:54:37,241 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-18 20:54:37,243 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-18 20:54:37,243 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-18 22:30:19,900 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-18 22:30:19,900 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-18 22:30:19,902 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-18 22:30:19,902 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-18 22:30:53,088 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-18 22:30:53,088 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-18 22:30:53,091 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-18 22:30:53,091 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-18 22:30:54,402 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.]
+ [2.]]
+2019-05-18 22:30:54,402 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.]
+ [2.]]
+2019-05-19 00:10:34,410 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-19 00:10:34,410 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-19 00:10:34,413 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-19 00:10:34,413 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-19 00:10:35,291 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.]
+ [2.]]
+2019-05-19 00:10:35,291 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.]
+ [2.]]
+2019-05-19 00:10:42,042 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:10:42,042 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:10:42,047 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:10:42,047 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:10:42,053 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:10:42,053 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:11:09,733 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.1]
+ [2.5]]
+2019-05-19 00:11:09,733 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.1]
+ [2.5]]
+2019-05-19 00:11:10,620 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:11:10,620 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:11:10,624 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:11:10,624 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:11:10,629 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:11:10,629 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:11:37,386 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:11:37,386 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:11:37,390 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:11:37,390 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:11:37,400 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:11:37,400 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:12:47,834 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-19 00:12:47,834 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-19 00:12:47,839 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-19 00:12:47,839 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-19 00:12:48,601 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.1]
+ [2.5]]
+2019-05-19 00:12:48,601 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.1]
+ [2.5]]
+2019-05-19 00:13:07,308 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:13:07,308 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:13:07,312 :: ERROR :: system_of_equation_solver :: DF = Matrix([[2*x, 0], [0, 2*y]]), could not be calculated at (2.5,)
+Traceback (most recent call last):
+  File "/home/aptara/STUDY/NKM/packages/system_of_equation_solver/solver_class.py", line 102, in calc_numeric_DF
+    df = lambdify(self._syms, self._DF, 'numpy')(*args).astype(DTYPE)
+TypeError: _lambdifygenerated() missing 1 required positional argument: 'y'
+2019-05-19 00:13:07,312 :: ERROR :: system_of_equation_solver :: DF = Matrix([[2*x, 0], [0, 2*y]]), could not be calculated at (2.5,)
+Traceback (most recent call last):
+  File "/home/aptara/STUDY/NKM/packages/system_of_equation_solver/solver_class.py", line 102, in calc_numeric_DF
+    df = lambdify(self._syms, self._DF, 'numpy')(*args).astype(DTYPE)
+TypeError: _lambdifygenerated() missing 1 required positional argument: 'y'
+2019-05-19 00:15:46,020 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-19 00:15:46,020 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-19 00:15:46,026 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-19 00:15:46,026 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-19 00:15:48,330 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.1]
+ [2.5]]
+2019-05-19 00:15:48,330 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.1]
+ [2.5]]
+2019-05-19 00:15:54,777 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.1]
+ [2.5]]
+2019-05-19 00:15:54,777 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.1]
+ [2.5]]
+2019-05-19 00:16:01,090 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:16:01,090 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:16:01,095 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:16:01,095 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:16:01,099 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:16:01,099 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:16:01,103 :: DEBUG :: system_of_equation_solver :: b0 = 0.45454543828964233
+2019-05-19 00:16:01,103 :: DEBUG :: system_of_equation_solver :: b0 = 0.45454543828964233
+2019-05-19 00:16:01,105 :: DEBUG :: system_of_equation_solver :: eta0 = 0.45000001788139343
+2019-05-19 00:16:01,105 :: DEBUG :: system_of_equation_solver :: eta0 = 0.45000001788139343
+2019-05-19 00:16:01,108 :: DEBUG :: system_of_equation_solver :: h = 0.40909091071648973
+2019-05-19 00:16:01,108 :: DEBUG :: system_of_equation_solver :: h = 0.40909091071648973
+2019-05-19 00:16:10,937 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:10,937 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:10,941 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:16:10,941 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:16:10,948 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:16:10,948 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:16:24,054 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:24,054 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:24,058 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0045454502105713, 2.049999952316284] = [[0.49773756 0.        ]
+ [0.         0.24390244]]
+2019-05-19 00:16:24,058 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0045454502105713, 2.049999952316284] = [[0.49773756 0.        ]
+ [0.         0.24390244]]
+2019-05-19 00:16:24,063 :: DEBUG :: system_of_equation_solver :: F[1.0045454502105713, 2.049999952316284] = [[0.00911156]
+ [0.2024998 ]]
+2019-05-19 00:16:24,063 :: DEBUG :: system_of_equation_solver :: F[1.0045454502105713, 2.049999952316284] = [[0.00911156]
+ [0.2024998 ]]
+2019-05-19 00:16:25,367 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:25,367 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:25,373 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0000102519989014, 2.000609874725342] = [[0.49999487 0.        ]
+ [0.         0.2499238 ]]
+2019-05-19 00:16:25,373 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0000102519989014, 2.000609874725342] = [[0.49999487 0.        ]
+ [0.         0.2499238 ]]
+2019-05-19 00:16:25,379 :: DEBUG :: system_of_equation_solver :: F[1.0000102519989014, 2.000609874725342] = [[2.0504103e-05]
+ [2.4398710e-03]]
+2019-05-19 00:16:25,379 :: DEBUG :: system_of_equation_solver :: F[1.0000102519989014, 2.000609874725342] = [[2.0504103e-05]
+ [2.4398710e-03]]
+2019-05-19 00:16:26,094 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:26,094 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:26,101 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:26,101 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:26,107 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:26,107 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:26,797 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:26,797 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:26,803 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:26,803 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:26,809 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:26,809 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:27,318 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:27,318 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:27,323 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:27,323 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:27,327 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:27,327 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:27,653 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:27,653 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:27,658 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:27,658 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:27,662 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:27,662 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:27,955 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:27,955 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:27,959 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:27,959 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:27,965 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:27,965 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:28,152 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:28,152 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:28,155 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:28,155 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:28,159 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:28,159 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:28,500 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:28,500 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:28,504 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:28,504 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:28,508 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:28,508 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:28,935 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:28,935 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:28,939 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:28,939 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:28,944 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:28,944 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:29,135 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:29,135 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:29,140 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:29,140 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:29,146 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:29,146 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:29,483 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:29,483 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:29,490 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:29,490 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:29,495 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:29,495 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:29,664 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:29,664 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:29,674 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:29,674 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:29,687 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:29,687 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:29,811 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:29,811 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:29,815 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:29,815 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:29,820 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:29,820 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:29,970 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:29,970 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:29,973 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:29,973 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:29,979 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:29,979 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:30,402 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:30,402 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:30,405 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:30,405 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:30,411 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:30,411 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:30,696 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:30,696 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:30,701 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:30,701 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0, 2.0] = [[0.5  0.  ]
+ [0.   0.25]]
+2019-05-19 00:16:30,706 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:30,706 :: DEBUG :: system_of_equation_solver :: F[1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:16:36,518 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.1]
+ [2.5]]
+2019-05-19 00:16:36,518 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.1]
+ [2.5]]
+2019-05-19 00:16:36,846 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:16:36,846 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:16:36,850 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:16:36,850 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:16:36,856 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:16:36,856 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:16:36,859 :: DEBUG :: system_of_equation_solver :: b0 = 0.45454543828964233
+2019-05-19 00:16:36,859 :: DEBUG :: system_of_equation_solver :: b0 = 0.45454543828964233
+2019-05-19 00:16:36,862 :: DEBUG :: system_of_equation_solver :: eta0 = 0.45000001788139343
+2019-05-19 00:16:36,862 :: DEBUG :: system_of_equation_solver :: eta0 = 0.45000001788139343
+2019-05-19 00:16:36,865 :: DEBUG :: system_of_equation_solver :: h = 0.40909091071648973
+2019-05-19 00:16:36,865 :: DEBUG :: system_of_equation_solver :: h = 0.40909091071648973
+2019-05-19 00:16:37,355 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:37,355 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:37,359 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:16:37,359 :: DEBUG :: system_of_equation_solver :: DF_inv[1.100000023841858, 2.5] = [[0.45454544 0.        ]
+ [0.         0.2       ]]
+2019-05-19 00:16:37,363 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:16:37,363 :: DEBUG :: system_of_equation_solver :: F[1.100000023841858, 2.5] = [[0.21000005]
+ [2.25      ]]
+2019-05-19 00:16:42,199 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:42,199 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:42,204 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0045454502105713, 2.049999952316284] = [[0.49773756 0.        ]
+ [0.         0.24390244]]
+2019-05-19 00:16:42,204 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0045454502105713, 2.049999952316284] = [[0.49773756 0.        ]
+ [0.         0.24390244]]
+2019-05-19 00:16:42,210 :: DEBUG :: system_of_equation_solver :: F[1.0045454502105713, 2.049999952316284] = [[0.00911156]
+ [0.2024998 ]]
+2019-05-19 00:16:42,210 :: DEBUG :: system_of_equation_solver :: F[1.0045454502105713, 2.049999952316284] = [[0.00911156]
+ [0.2024998 ]]
+2019-05-19 00:16:43,305 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:43,305 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:43,309 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0000102519989014, 2.000609874725342] = [[0.49999487 0.        ]
+ [0.         0.2499238 ]]
+2019-05-19 00:16:43,309 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0000102519989014, 2.000609874725342] = [[0.49999487 0.        ]
+ [0.         0.2499238 ]]
+2019-05-19 00:16:43,316 :: DEBUG :: system_of_equation_solver :: F[1.0000102519989014, 2.000609874725342] = [[2.0504103e-05]
+ [2.4398710e-03]]
+2019-05-19 00:16:43,316 :: DEBUG :: system_of_equation_solver :: F[1.0000102519989014, 2.000609874725342] = [[2.0504103e-05]
+ [2.4398710e-03]]
+2019-05-19 00:16:51,219 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.9 ]
+ [2.89]]
+2019-05-19 00:16:51,219 :: DEBUG :: system_of_equation_solver :: initial value of x = [[1.9 ]
+ [2.89]]
+2019-05-19 00:16:51,799 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:16:51,799 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:16:51,803 :: DEBUG :: system_of_equation_solver :: DF_inv[1.899999976158142, 2.890000104904175] = [[0.2631579  0.        ]
+ [0.         0.17301038]]
+2019-05-19 00:16:51,803 :: DEBUG :: system_of_equation_solver :: DF_inv[1.899999976158142, 2.890000104904175] = [[0.2631579  0.        ]
+ [0.         0.17301038]]
+2019-05-19 00:16:51,807 :: DEBUG :: system_of_equation_solver :: F[1.899999976158142, 2.890000104904175] = [[2.61     ]
+ [4.3521004]]
+2019-05-19 00:16:51,807 :: DEBUG :: system_of_equation_solver :: F[1.899999976158142, 2.890000104904175] = [[2.61     ]
+ [4.3521004]]
+2019-05-19 00:16:51,809 :: DEBUG :: system_of_equation_solver :: b0 = 0.2631579041481018
+2019-05-19 00:16:51,809 :: DEBUG :: system_of_equation_solver :: b0 = 0.2631579041481018
+2019-05-19 00:16:51,810 :: DEBUG :: system_of_equation_solver :: eta0 = 0.7529585361480713
+2019-05-19 00:16:51,810 :: DEBUG :: system_of_equation_solver :: eta0 = 0.7529585361480713
+2019-05-19 00:16:51,812 :: DEBUG :: system_of_equation_solver :: h = 0.3962939805662984
+2019-05-19 00:16:51,812 :: DEBUG :: system_of_equation_solver :: h = 0.3962939805662984
+2019-05-19 00:16:56,002 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:56,002 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:56,008 :: DEBUG :: system_of_equation_solver :: DF_inv[1.899999976158142, 2.890000104904175] = [[0.2631579  0.        ]
+ [0.         0.17301038]]
+2019-05-19 00:16:56,008 :: DEBUG :: system_of_equation_solver :: DF_inv[1.899999976158142, 2.890000104904175] = [[0.2631579  0.        ]
+ [0.         0.17301038]]
+2019-05-19 00:16:56,015 :: DEBUG :: system_of_equation_solver :: F[1.899999976158142, 2.890000104904175] = [[2.61     ]
+ [4.3521004]]
+2019-05-19 00:16:56,015 :: DEBUG :: system_of_equation_solver :: F[1.899999976158142, 2.890000104904175] = [[2.61     ]
+ [4.3521004]]
+2019-05-19 00:16:57,831 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:57,831 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:57,836 :: DEBUG :: system_of_equation_solver :: DF_inv[1.2131578922271729, 2.1370415687561035] = [[0.4121475 0.       ]
+ [0.        0.2339683]]
+2019-05-19 00:16:57,836 :: DEBUG :: system_of_equation_solver :: DF_inv[1.2131578922271729, 2.1370415687561035] = [[0.4121475 0.       ]
+ [0.        0.2339683]]
+2019-05-19 00:16:57,843 :: DEBUG :: system_of_equation_solver :: F[1.2131578922271729, 2.1370415687561035] = [[0.47175208]
+ [0.5669467 ]]
+2019-05-19 00:16:57,843 :: DEBUG :: system_of_equation_solver :: F[1.2131578922271729, 2.1370415687561035] = [[0.47175208]
+ [0.5669467 ]]
+2019-05-19 00:16:58,798 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:58,798 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:58,802 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0187264680862427, 2.004394054412842] = [[0.49080887 0.        ]
+ [0.         0.24945195]]
+2019-05-19 00:16:58,802 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0187264680862427, 2.004394054412842] = [[0.49080887 0.        ]
+ [0.         0.24945195]]
+2019-05-19 00:16:58,808 :: DEBUG :: system_of_equation_solver :: F[1.0187264680862427, 2.004394054412842] = [[0.03780362]
+ [0.01759553]]
+2019-05-19 00:16:58,808 :: DEBUG :: system_of_equation_solver :: F[1.0187264680862427, 2.004394054412842] = [[0.03780362]
+ [0.01759553]]
+2019-05-19 00:16:59,838 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:59,838 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:16:59,843 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0001721382141113, 2.000004768371582] = [[0.49991393 0.        ]
+ [0.         0.2499994 ]]
+2019-05-19 00:16:59,843 :: DEBUG :: system_of_equation_solver :: DF_inv[1.0001721382141113, 2.000004768371582] = [[0.49991393 0.        ]
+ [0.         0.2499994 ]]
+2019-05-19 00:16:59,848 :: DEBUG :: system_of_equation_solver :: F[1.0001721382141113, 2.000004768371582] = [[3.4430606e-04]
+ [1.9073508e-05]]
+2019-05-19 00:16:59,848 :: DEBUG :: system_of_equation_solver :: F[1.0001721382141113, 2.000004768371582] = [[3.4430606e-04]
+ [1.9073508e-05]]
+2019-05-19 00:17:22,305 :: DEBUG :: system_of_equation_solver :: initial value of x = [[-5.]
+ [ 6.]]
+2019-05-19 00:17:22,305 :: DEBUG :: system_of_equation_solver :: initial value of x = [[-5.]
+ [ 6.]]
+2019-05-19 00:17:22,784 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:17:22,784 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:17:22,789 :: DEBUG :: system_of_equation_solver :: DF_inv[-5.0, 6.0] = [[-0.1        -0.        ]
+ [ 0.          0.08333334]]
+2019-05-19 00:17:22,789 :: DEBUG :: system_of_equation_solver :: DF_inv[-5.0, 6.0] = [[-0.1        -0.        ]
+ [ 0.          0.08333334]]
+2019-05-19 00:17:22,794 :: DEBUG :: system_of_equation_solver :: F[-5.0, 6.0] = [[24.]
+ [32.]]
+2019-05-19 00:17:22,794 :: DEBUG :: system_of_equation_solver :: F[-5.0, 6.0] = [[24.]
+ [32.]]
+2019-05-19 00:17:22,797 :: DEBUG :: system_of_equation_solver :: b0 = 0.10000000149011612
+2019-05-19 00:17:22,797 :: DEBUG :: system_of_equation_solver :: b0 = 0.10000000149011612
+2019-05-19 00:17:22,800 :: DEBUG :: system_of_equation_solver :: eta0 = 2.6666667461395264
+2019-05-19 00:17:22,800 :: DEBUG :: system_of_equation_solver :: eta0 = 2.6666667461395264
+2019-05-19 00:17:22,802 :: DEBUG :: system_of_equation_solver :: h = 0.5333333571751915
+2019-05-19 00:17:22,802 :: DEBUG :: system_of_equation_solver :: h = 0.5333333571751915
+2019-05-19 00:17:22,804 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 0.53
+2019-05-19 00:17:22,804 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 0.53
+2019-05-19 00:18:22,036 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-19 00:18:22,036 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x**2 - 1], [y**2 - 4]])
+2019-05-19 00:18:22,039 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-19 00:18:22,039 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[2*x, 0], [0, 2*y]])
+2019-05-19 00:18:25,266 :: DEBUG :: system_of_equation_solver :: initial value of x = [[-4.]
+ [ 6.]]
+2019-05-19 00:18:25,266 :: DEBUG :: system_of_equation_solver :: initial value of x = [[-4.]
+ [ 6.]]
+2019-05-19 00:18:25,783 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:18:25,783 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:18:25,788 :: DEBUG :: system_of_equation_solver :: DF_inv[-4.0, 6.0] = [[-0.125      -0.        ]
+ [ 0.          0.08333334]]
+2019-05-19 00:18:25,788 :: DEBUG :: system_of_equation_solver :: DF_inv[-4.0, 6.0] = [[-0.125      -0.        ]
+ [ 0.          0.08333334]]
+2019-05-19 00:18:25,793 :: DEBUG :: system_of_equation_solver :: F[-4.0, 6.0] = [[15.]
+ [32.]]
+2019-05-19 00:18:25,793 :: DEBUG :: system_of_equation_solver :: F[-4.0, 6.0] = [[15.]
+ [32.]]
+2019-05-19 00:18:25,795 :: DEBUG :: system_of_equation_solver :: b0 = 0.125
+2019-05-19 00:18:25,795 :: DEBUG :: system_of_equation_solver :: b0 = 0.125
+2019-05-19 00:18:25,798 :: DEBUG :: system_of_equation_solver :: eta0 = 2.6666667461395264
+2019-05-19 00:18:25,798 :: DEBUG :: system_of_equation_solver :: eta0 = 2.6666667461395264
+2019-05-19 00:18:25,799 :: DEBUG :: system_of_equation_solver :: h = 0.6666666865348816
+2019-05-19 00:18:25,799 :: DEBUG :: system_of_equation_solver :: h = 0.6666666865348816
+2019-05-19 00:18:25,800 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 0.67
+2019-05-19 00:18:25,800 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 0.67
+2019-05-19 00:18:30,966 :: DEBUG :: system_of_equation_solver :: initial value of x = [[-4.]
+ [ 5.]]
+2019-05-19 00:18:30,966 :: DEBUG :: system_of_equation_solver :: initial value of x = [[-4.]
+ [ 5.]]
+2019-05-19 00:18:31,348 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:18:31,348 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:18:31,353 :: DEBUG :: system_of_equation_solver :: DF_inv[-4.0, 5.0] = [[-0.125 -0.   ]
+ [ 0.     0.1  ]]
+2019-05-19 00:18:31,353 :: DEBUG :: system_of_equation_solver :: DF_inv[-4.0, 5.0] = [[-0.125 -0.   ]
+ [ 0.     0.1  ]]
+2019-05-19 00:18:31,359 :: DEBUG :: system_of_equation_solver :: F[-4.0, 5.0] = [[15.]
+ [21.]]
+2019-05-19 00:18:31,359 :: DEBUG :: system_of_equation_solver :: F[-4.0, 5.0] = [[15.]
+ [21.]]
+2019-05-19 00:18:31,362 :: DEBUG :: system_of_equation_solver :: b0 = 0.125
+2019-05-19 00:18:31,362 :: DEBUG :: system_of_equation_solver :: b0 = 0.125
+2019-05-19 00:18:31,364 :: DEBUG :: system_of_equation_solver :: eta0 = 2.1000001430511475
+2019-05-19 00:18:31,364 :: DEBUG :: system_of_equation_solver :: eta0 = 2.1000001430511475
+2019-05-19 00:18:31,366 :: DEBUG :: system_of_equation_solver :: h = 0.5250000357627869
+2019-05-19 00:18:31,366 :: DEBUG :: system_of_equation_solver :: h = 0.5250000357627869
+2019-05-19 00:18:31,367 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 0.53
+2019-05-19 00:18:31,367 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 0.53
+2019-05-19 00:18:35,552 :: DEBUG :: system_of_equation_solver :: initial value of x = [[-4.]
+ [ 2.]]
+2019-05-19 00:18:35,552 :: DEBUG :: system_of_equation_solver :: initial value of x = [[-4.]
+ [ 2.]]
+2019-05-19 00:18:35,965 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:18:35,965 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:18:35,970 :: DEBUG :: system_of_equation_solver :: DF_inv[-4.0, 2.0] = [[-0.125 -0.   ]
+ [ 0.     0.25 ]]
+2019-05-19 00:18:35,970 :: DEBUG :: system_of_equation_solver :: DF_inv[-4.0, 2.0] = [[-0.125 -0.   ]
+ [ 0.     0.25 ]]
+2019-05-19 00:18:35,979 :: DEBUG :: system_of_equation_solver :: F[-4.0, 2.0] = [[15.]
+ [ 0.]]
+2019-05-19 00:18:35,979 :: DEBUG :: system_of_equation_solver :: F[-4.0, 2.0] = [[15.]
+ [ 0.]]
+2019-05-19 00:18:35,982 :: DEBUG :: system_of_equation_solver :: b0 = 0.125
+2019-05-19 00:18:35,982 :: DEBUG :: system_of_equation_solver :: b0 = 0.125
+2019-05-19 00:18:35,984 :: DEBUG :: system_of_equation_solver :: eta0 = 1.875
+2019-05-19 00:18:35,984 :: DEBUG :: system_of_equation_solver :: eta0 = 1.875
+2019-05-19 00:18:35,986 :: DEBUG :: system_of_equation_solver :: h = 0.46875
+2019-05-19 00:18:35,986 :: DEBUG :: system_of_equation_solver :: h = 0.46875
+2019-05-19 00:18:43,888 :: DEBUG :: system_of_equation_solver :: initial value of x = [[-4. ]
+ [ 2.9]]
+2019-05-19 00:18:43,888 :: DEBUG :: system_of_equation_solver :: initial value of x = [[-4. ]
+ [ 2.9]]
+2019-05-19 00:18:44,294 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:18:44,294 :: DEBUG :: system_of_equation_solver :: calculating initial conditions
+2019-05-19 00:18:44,298 :: DEBUG :: system_of_equation_solver :: DF_inv[-4.0, 2.9000000953674316] = [[-0.125      -0.        ]
+ [ 0.          0.17241378]]
+2019-05-19 00:18:44,298 :: DEBUG :: system_of_equation_solver :: DF_inv[-4.0, 2.9000000953674316] = [[-0.125      -0.        ]
+ [ 0.          0.17241378]]
+2019-05-19 00:18:44,305 :: DEBUG :: system_of_equation_solver :: F[-4.0, 2.9000000953674316] = [[15.       ]
+ [ 4.4100003]]
+2019-05-19 00:18:44,305 :: DEBUG :: system_of_equation_solver :: F[-4.0, 2.9000000953674316] = [[15.       ]
+ [ 4.4100003]]
+2019-05-19 00:18:44,308 :: DEBUG :: system_of_equation_solver :: b0 = 0.125
+2019-05-19 00:18:44,308 :: DEBUG :: system_of_equation_solver :: b0 = 0.125
+2019-05-19 00:18:44,310 :: DEBUG :: system_of_equation_solver :: eta0 = 1.875
+2019-05-19 00:18:44,310 :: DEBUG :: system_of_equation_solver :: eta0 = 1.875
+2019-05-19 00:18:44,312 :: DEBUG :: system_of_equation_solver :: h = 0.46875
+2019-05-19 00:18:44,312 :: DEBUG :: system_of_equation_solver :: h = 0.46875
+2019-05-19 00:18:50,038 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:50,038 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:50,042 :: DEBUG :: system_of_equation_solver :: DF_inv[-4.0, 2.9000000953674316] = [[-0.125      -0.        ]
+ [ 0.          0.17241378]]
+2019-05-19 00:18:50,042 :: DEBUG :: system_of_equation_solver :: DF_inv[-4.0, 2.9000000953674316] = [[-0.125      -0.        ]
+ [ 0.          0.17241378]]
+2019-05-19 00:18:50,048 :: DEBUG :: system_of_equation_solver :: F[-4.0, 2.9000000953674316] = [[15.       ]
+ [ 4.4100003]]
+2019-05-19 00:18:50,048 :: DEBUG :: system_of_equation_solver :: F[-4.0, 2.9000000953674316] = [[15.       ]
+ [ 4.4100003]]
+2019-05-19 00:18:51,158 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:51,158 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:51,162 :: DEBUG :: system_of_equation_solver :: DF_inv[-2.125, 2.139655351638794] = [[-0.23529412 -0.        ]
+ [ 0.          0.2336825 ]]
+2019-05-19 00:18:51,162 :: DEBUG :: system_of_equation_solver :: DF_inv[-2.125, 2.139655351638794] = [[-0.23529412 -0.        ]
+ [ 0.          0.2336825 ]]
+2019-05-19 00:18:51,168 :: DEBUG :: system_of_equation_solver :: F[-2.125, 2.139655351638794] = [[3.515625]
+ [0.578125]]
+2019-05-19 00:18:51,168 :: DEBUG :: system_of_equation_solver :: F[-2.125, 2.139655351638794] = [[3.515625]
+ [0.578125]]
+2019-05-19 00:18:52,248 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:52,248 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:52,253 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.2977941036224365, 2.0045576095581055] = [[-0.38526914 -0.        ]
+ [ 0.          0.2494316 ]]
+2019-05-19 00:18:52,253 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.2977941036224365, 2.0045576095581055] = [[-0.38526914 -0.        ]
+ [ 0.          0.2494316 ]]
+2019-05-19 00:18:52,259 :: DEBUG :: system_of_equation_solver :: F[-1.2977941036224365, 2.0045576095581055] = [[0.68426955]
+ [0.01825121]]
+2019-05-19 00:18:52,259 :: DEBUG :: system_of_equation_solver :: F[-1.2977941036224365, 2.0045576095581055] = [[0.68426955]
+ [0.01825121]]
+2019-05-19 00:18:53,313 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:53,313 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:53,317 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0341660976409912, 2.0000052452087402] = [[-0.48348132 -0.        ]
+ [ 0.          0.24999934]]
+2019-05-19 00:18:53,317 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0341660976409912, 2.0000052452087402] = [[-0.48348132 -0.        ]
+ [ 0.          0.24999934]]
+2019-05-19 00:18:53,320 :: DEBUG :: system_of_equation_solver :: F[-1.0341660976409912, 2.0000052452087402] = [[6.9499515e-02]
+ [2.0980862e-05]]
+2019-05-19 00:18:53,320 :: DEBUG :: system_of_equation_solver :: F[-1.0341660976409912, 2.0000052452087402] = [[6.9499515e-02]
+ [2.0980862e-05]]
+2019-05-19 00:18:54,336 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:54,336 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:54,341 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0005643367767334, 2.0] = [[-0.49971798 -0.        ]
+ [ 0.          0.25      ]]
+2019-05-19 00:18:54,341 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0005643367767334, 2.0] = [[-0.49971798 -0.        ]
+ [ 0.          0.25      ]]
+2019-05-19 00:18:54,346 :: DEBUG :: system_of_equation_solver :: F[-1.0005643367767334, 2.0] = [[0.00112899]
+ [0.        ]]
+2019-05-19 00:18:54,346 :: DEBUG :: system_of_equation_solver :: F[-1.0005643367767334, 2.0] = [[0.00112899]
+ [0.        ]]
+2019-05-19 00:18:55,474 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:55,474 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:55,480 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0000001192092896, 2.0] = [[-0.49999994 -0.        ]
+ [ 0.          0.25      ]]
+2019-05-19 00:18:55,480 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0000001192092896, 2.0] = [[-0.49999994 -0.        ]
+ [ 0.          0.25      ]]
+2019-05-19 00:18:55,485 :: DEBUG :: system_of_equation_solver :: F[-1.0000001192092896, 2.0] = [[2.3841858e-07]
+ [0.0000000e+00]]
+2019-05-19 00:18:55,485 :: DEBUG :: system_of_equation_solver :: F[-1.0000001192092896, 2.0] = [[2.3841858e-07]
+ [0.0000000e+00]]
+2019-05-19 00:18:56,569 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:56,569 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:18:56,575 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0, 2.0] = [[-0.5  -0.  ]
+ [ 0.    0.25]]
+2019-05-19 00:18:56,575 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0, 2.0] = [[-0.5  -0.  ]
+ [ 0.    0.25]]
+2019-05-19 00:18:56,580 :: DEBUG :: system_of_equation_solver :: F[-1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:18:56,580 :: DEBUG :: system_of_equation_solver :: F[-1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:19:00,805 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:19:00,805 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:19:00,810 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0, 2.0] = [[-0.5  -0.  ]
+ [ 0.    0.25]]
+2019-05-19 00:19:00,810 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0, 2.0] = [[-0.5  -0.  ]
+ [ 0.    0.25]]
+2019-05-19 00:19:00,818 :: DEBUG :: system_of_equation_solver :: F[-1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:19:00,818 :: DEBUG :: system_of_equation_solver :: F[-1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:19:01,254 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:19:01,254 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:19:01,259 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0, 2.0] = [[-0.5  -0.  ]
+ [ 0.    0.25]]
+2019-05-19 00:19:01,259 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0, 2.0] = [[-0.5  -0.  ]
+ [ 0.    0.25]]
+2019-05-19 00:19:01,263 :: DEBUG :: system_of_equation_solver :: F[-1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:19:01,263 :: DEBUG :: system_of_equation_solver :: F[-1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:19:01,619 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:19:01,619 :: DEBUG :: system_of_equation_solver :: updating x_conv
+2019-05-19 00:19:01,625 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0, 2.0] = [[-0.5  -0.  ]
+ [ 0.    0.25]]
+2019-05-19 00:19:01,625 :: DEBUG :: system_of_equation_solver :: DF_inv[-1.0, 2.0] = [[-0.5  -0.  ]
+ [ 0.    0.25]]
+2019-05-19 00:19:01,631 :: DEBUG :: system_of_equation_solver :: F[-1.0, 2.0] = [[0.]
+ [0.]]
+2019-05-19 00:19:01,631 :: DEBUG :: system_of_equation_solver :: F[-1.0, 2.0] = [[0.]
+ [0.]]

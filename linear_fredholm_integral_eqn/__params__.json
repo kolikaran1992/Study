@@ -1,0 +1,11 @@
+{
+  "steps" : {
+    "s" : 64,
+    "t" : 64
+  },
+  "convergence_threshold" : 0.0001,
+  "NKM_grid_size" : {
+    "s" : 64,
+    "t" : 64
+  }
+}

@@ -1,0 +1,81 @@
+2019-05-26 19:11:01,102 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:11:05,972 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 6.0
+2019-05-26 19:11:45,875 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:11:50,902 :: ERROR :: system_of_equation_solver :: h must be less than 0.5 but is 6.0
+2019-05-26 19:20:07,724 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:20:07,724 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:20:07,729 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x*y + x - 4*y - 11], [x*y - x - 4*y - 4]])
+2019-05-26 19:20:07,729 :: DEBUG :: system_of_equation_solver :: F(x, y) = Matrix([[x*y + x - 4*y - 11], [x*y - x - 4*y - 4]])
+2019-05-26 19:20:07,732 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[y + 1, x - 4], [y - 1, x - 4]])
+2019-05-26 19:20:07,732 :: DEBUG :: system_of_equation_solver :: DF(x, y) = Matrix([[y + 1, x - 4], [y - 1, x - 4]])
+2019-05-26 19:20:29,196 :: DEBUG :: system_of_equation_solver :: initial value of x = [[0.5]
+ [3. ]]
+2019-05-26 19:20:29,196 :: DEBUG :: system_of_equation_solver :: initial value of x = [[0.5]
+ [3. ]]
+2019-05-26 19:20:31,687 :: DEBUG :: system_of_equation_solver :: DF_inv(0.5, 3.0) = [[ 0.5       -0.5      ]
+ [ 0.2857143 -0.5714286]]
+2019-05-26 19:20:31,687 :: DEBUG :: system_of_equation_solver :: DF_inv(0.5, 3.0) = [[ 0.5       -0.5      ]
+ [ 0.2857143 -0.5714286]]
+2019-05-26 19:20:31,695 :: DEBUG :: system_of_equation_solver :: operator norm = 1.0
+2019-05-26 19:20:31,695 :: DEBUG :: system_of_equation_solver :: operator norm = 1.0
+2019-05-26 19:20:31,699 :: DEBUG :: system_of_equation_solver :: b0 = 1.0
+2019-05-26 19:20:31,699 :: DEBUG :: system_of_equation_solver :: b0 = 1.0
+2019-05-26 19:20:46,701 :: DEBUG :: system_of_equation_solver :: DF_inv(0.5, 3.0) = [[ 0.5       -0.5      ]
+ [ 0.2857143 -0.5714286]]
+2019-05-26 19:20:46,701 :: DEBUG :: system_of_equation_solver :: DF_inv(0.5, 3.0) = [[ 0.5       -0.5      ]
+ [ 0.2857143 -0.5714286]]
+2019-05-26 19:20:46,710 :: DEBUG :: system_of_equation_solver :: F(0.5, 3.0) = [[-21.]
+ [-15.]]
+2019-05-26 19:20:46,710 :: DEBUG :: system_of_equation_solver :: F(0.5, 3.0) = [[-21.]
+ [-15.]]
+2019-05-26 19:20:46,713 :: DEBUG :: system_of_equation_solver :: F[0.5, 3.0] = [[-21.]
+ [-15.]]
+2019-05-26 19:20:46,713 :: DEBUG :: system_of_equation_solver :: F[0.5, 3.0] = [[-21.]
+ [-15.]]
+2019-05-26 19:20:46,716 :: DEBUG :: system_of_equation_solver :: vector norm = 3.0
+2019-05-26 19:20:46,716 :: DEBUG :: system_of_equation_solver :: vector norm = 3.0
+2019-05-26 19:20:46,720 :: DEBUG :: system_of_equation_solver :: eta0 = 3.0
+2019-05-26 19:20:46,720 :: DEBUG :: system_of_equation_solver :: eta0 = 3.0
+2019-05-26 19:21:09,586 :: ERROR :: system_of_equation_solver :: vector norn could not be calculated
+Traceback (most recent call last):
+  File "/home/aptara/STUDY/NKM/packages/system_of_equation_solver/solver_class.py", line 105, in vector_norm
+    norm = np.linalg.norm(numerical_vector, l_key[self._vec_norm_type])
+AttributeError: 'float' object has no attribute '_vec_norm_type'
+2019-05-26 19:21:09,586 :: ERROR :: system_of_equation_solver :: vector norn could not be calculated
+Traceback (most recent call last):
+  File "/home/aptara/STUDY/NKM/packages/system_of_equation_solver/solver_class.py", line 105, in vector_norm
+    norm = np.linalg.norm(numerical_vector, l_key[self._vec_norm_type])
+AttributeError: 'float' object has no attribute '_vec_norm_type'
+2019-05-26 19:23:30,197 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:23:30,197 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:23:30,197 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:23:46,391 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:23:46,391 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:23:46,391 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:24:19,680 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:24:19,680 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:24:19,680 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:25:00,419 :: ERROR :: system_of_equation_solver :: F = Matrix([[x*y + x - 4*y - 11], [x*y - x - 4*y - 4]]), could not be calculated at ([0.5, 3],)
+Traceback (most recent call last):
+  File "/home/aptara/STUDY/NKM/packages/system_of_equation_solver/solver_class.py", line 119, in calc_numeric_F
+    f = lambdify(self._syms, self._F, 'numpy')(*args).reshape(self._vec_shape).astype(DTYPE)
+TypeError: _lambdifygenerated() missing 1 required positional argument: 'y'
+2019-05-26 19:25:00,419 :: ERROR :: system_of_equation_solver :: F = Matrix([[x*y + x - 4*y - 11], [x*y - x - 4*y - 4]]), could not be calculated at ([0.5, 3],)
+Traceback (most recent call last):
+  File "/home/aptara/STUDY/NKM/packages/system_of_equation_solver/solver_class.py", line 119, in calc_numeric_F
+    f = lambdify(self._syms, self._F, 'numpy')(*args).reshape(self._vec_shape).astype(DTYPE)
+TypeError: _lambdifygenerated() missing 1 required positional argument: 'y'
+2019-05-26 19:25:00,419 :: ERROR :: system_of_equation_solver :: F = Matrix([[x*y + x - 4*y - 11], [x*y - x - 4*y - 4]]), could not be calculated at ([0.5, 3],)
+Traceback (most recent call last):
+  File "/home/aptara/STUDY/NKM/packages/system_of_equation_solver/solver_class.py", line 119, in calc_numeric_F
+    f = lambdify(self._syms, self._F, 'numpy')(*args).reshape(self._vec_shape).astype(DTYPE)
+TypeError: _lambdifygenerated() missing 1 required positional argument: 'y'
+2019-05-26 19:49:59,447 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:49:59,447 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:49:59,447 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:50:21,815 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:50:21,815 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:50:21,815 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:53:48,607 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:53:48,607 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
+2019-05-26 19:53:48,607 :: INFO :: system_of_equation_solver :: The current mode is Newton Kantorovich
